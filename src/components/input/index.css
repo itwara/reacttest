@@ -1,0 +1,15 @@
+.input-wrap {
+  text-align: left;
+  margin: 10px;
+}
+
+input {
+  height: 40px;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.input-label {
+  color: rgb(104, 13, 13);
+}
