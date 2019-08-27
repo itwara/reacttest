@@ -3,9 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import Input from './components/input'
 function App() {
-  const changeInputValue = (e) => {
-    console.log(e.target.value)
-    setInputValue(e.target.value)
+  const changeInputValue = (dom) => {
+    console.log(dom)
+    setInputValue(dom.value)
   }
 
 
