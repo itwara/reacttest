@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class Chirdren extends Component {
   constructor() {
@@ -46,4 +47,7 @@ class Chirdren extends Component {
   }
 }
 
+Chirdren.propTypes = {
+  name: PropTypes.string
+}
 export default Chirdren;
