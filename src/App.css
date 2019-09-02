@@ -31,3 +31,15 @@
     transform: rotate(360deg);
   }
 }
+
+button {
+  border: 1px solid #ccc;
+  width: 100px;
+  height: 50px;
+  margin-right: 50px;
+}
+
+.life {
+  padding: 50px;
+  text-align: center;
+}
