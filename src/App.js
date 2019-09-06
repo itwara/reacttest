@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import './App.css';
 import Input from './components/input'
 import LifeCircle from './views/lifeCircle' 
+import User from './views/user'
+
 function App() {
   const changeInputValue = (dom) => {
     console.log(dom)
@@ -10,8 +12,8 @@ function App() {
   //設置 state
   const [inputValue, setInputValue] = useState('itwara')
 
-  const routeNm = 'life'
   let view = null
+  const routeNm = 'life'
   switch(routeNm) {
     case 'bind': 
       view = (
@@ -23,6 +25,9 @@ function App() {
       break
     case 'life':
       view = (<LifeCircle></LifeCircle>)
+      break
+    case 'user':
+      view = (<User></User>)
       break
     default:
       view = null
