@@ -1,5 +1,8 @@
-var a="this is test";console.log(a);const b = {name:'andy',age:20,};
+var a = 'this is test'
+console.log(a)
+const b = { name: 'andy', age: 20 }
 const c = {
-    name:'lilei',
-    age:18,
-};
+  name: 'lilei',
+  age: 18,
+}
+console.log(b, c)
