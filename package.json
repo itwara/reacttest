@@ -16,14 +16,8 @@
   "eslintConfig": {
     "extends": [
       "react-app",
-      "prettier"
-    ],
-    "plugins": [
-      "prettier"
-    ],
-    "rules": {
-      "prettier/prettier": "error"
-    }
+      "plugin:prettier/recommended"
+    ]
   },
   "browserslist": {
     "production": [
