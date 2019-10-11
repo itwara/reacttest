@@ -1,3 +1,5 @@
+[![Build Status](https://www.travis-ci.org/itwara/reacttest.svg?branch=master)](https://www.travis-ci.org/itwara/reacttest)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
