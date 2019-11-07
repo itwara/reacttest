@@ -1,0 +1,14 @@
+@mixin ellipse($width: 100% ) {
+  width: $width;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@function pxInTaro($pxs...) {
+  $sum: "";
+  @each $px in $pxs {
+    $sum: #{$sum $px * 2 };
+  }
+  @return $sum;
+}
